@@ -1,16 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Resume</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Inline CSS -->
+  <style>
+    .section {
+      margin: 20px 0;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main Content -->
+  <div class="container">
+    <div id="title" class="section">
+      <h1>John Doe</h1>
+    </div>
+    <div id="objectives" class="section">
+      <h2>Objectives</h2>
+      <p>To find a challenging position to meet my competencies.</p>
+    </div>
+    <div id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>T-SQL</li>
+      </ul>
+    </div>
+    <div id="jobs" class="section">
+      <h2>Jobs</h2>
+      <h3>Job 1</h3>
+      <h3>Job 2</h3>
+      <h3>Job 3</h3>
+    </div>
+    <div id="education" class="section">
+      <h2>Education</h2>
+      <p>University of XYZ</p>
+    </div>
+  </div>
 
----
-# front matter tells Jekyll to process Liquid
----
-
-
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>{{ "Hello World!" | downcase }}</h1>
-  </body>
+  <!-- Inline JavaScript -->
+  <script>
+    window.onload = function() {
+      alert("Welcome to the Sample Resume!");
+    };
+  </script>
+</body>
 </html>
